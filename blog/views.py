@@ -1,6 +1,6 @@
 from django.utils import timezone
 from django.shortcuts import render, get_object_or_404
-from .models import Post
+from .models import Post, Comment
 from .forms import PostForm, CommentForm
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
